@@ -1,9 +1,55 @@
 # 📱 AxionOS Changelog  
 
-## 📅 Latest Version - **1.1-Hotfix** (Feb 19, 2025)
+## 📅 Latest Version - **1.2** (eta: March 5, 2025)
 
 ### 🚀 What's New  
 
+#### 🎨 UI/UX Enhancements  
+- **Volume Panel Improvements:**
+  - Enhanced volume slider swipe animation for a smoother experience
+  - Optimized volume panel size and layout in portrait mode
+  - Added an animated wave icon when media is playing
+- **Quick Settings Enhancements:**
+  - Improved landscape layout for better usability
+- **Tablet UI Fixes:**
+  - Resolved various layout issues for a more refined experience
+
+#### 🛠️ New Features  
+- Added **Game Spoofing** option
+- Added **Hide ADB and Developer Options**
+- Added **Ignore Secure Window Flag** option
+- Enabled **Application Downgrade Support**
+- Added **Columbus Service** aka **Quick Tap**
+- Added **Per-app Volume**
+- Added **Volume Steps**
+- Added **Sound tile**
+- Added **Data Switch tile**
+- Added **ViperFx Support**
+- Added **Increasing Ring feature**
+- Added **Multi-sim phone ringtone**
+- Added **Custom Vibration patterns**
+- Added **Hide app list**
+- Added **Lockscreen Weather**
+
+#### ⚡ System Enhancements  
+- **Performance Mode:**
+  - Introduced a new **Performance Mode** that optimizes the CPU scheduler (based on TKG/Liquorix/Zen kernel tunings) and governor for higher performance
+- **GameSpace Integration:**
+  - When **GameSpace Performance Mode** is enabled, the system automatically enables the system performance mode while the game is active (if system performance mode is disabled)
+- **CPU Sleep Optimizations:**
+  - Limits CPU usage when the device is idle or the screen is off, without disrupting audio or media playback
+- **Pixel Tensor Devices:**
+  - Disabled early thermal throttling to allow faster charging at lower temperatures (still capped at **41°C+** for safety)
+  - Implemented Smart charging mode with QS Tile
+- **Minimize rendering overhead:**
+  - Disabled thread renderer that increases rendering overhead on low-end devices
+- **Fixed Triluminous Display contrast**
+- **Improved hide adb/developer settings**
+  - Now hides adb/developer options status to more apps e.g Gcash/banking apps
+
+## 🔄 Previous Releases  
+
+### **1.1 - Hotfix** (February 19, 2025)  
 #### 🎨 UI/UX Enhancements  
 - Reverted Quick Settings to Material You color scheme.
 - **Launcher**: Added Option to disable the search bar background for a cleaner look.
@@ -29,10 +75,6 @@
 #### 🛠️ Bug Fixes  
 - Fixed **power button delay**.
 - Resolved **random reboots** caused by a fix for aggressive freezer kills.
-
----  
-
-## 🔄 Previous Releases  
 
 ### **1.1** (February 11, 2025)  
 #### 🎨 UI/UX Enhancements  
