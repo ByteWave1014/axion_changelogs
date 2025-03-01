@@ -1,0 +1,7 @@
+AxionOs 1.1
+Build Date: 01/03/2025
+- Initial Build
+- Initial Official Release
+- OTA support available
+- Add Thermal Profile and Mode
+- Add RerfreshRate
